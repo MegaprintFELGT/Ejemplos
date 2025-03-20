@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dte:GTDocumento xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0" Version="0.1">
+	<dte:SAT ClaseDocumento="dte">
+		<dte:DTE ID="DatosCertificados">
+			<dte:DatosEmision ID="DatosEmision">
+				<dte:DatosGenerales CodigoMoneda="GTQ" Exp="SI" FechaHoraEmision="2025-03-20T14:54:26.000-06:00" Tipo="FACT"/>
+				<dte:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="1" CorreoEmisor="" NITEmisor="50510231" NombreComercial="MEGAPRINT" NombreEmisor="MEGAPRINT, SOCIEDAD ANONIMA">
+					<dte:DireccionEmisor>
+						<dte:Direccion>KILOMETRO 95 CARRETERA A EL SALVADOR TORRE TIGO OFICINA 2A Santa Catarina Pinula, GUATEMALA</dte:Direccion>
+						<dte:CodigoPostal>0</dte:CodigoPostal>
+						<dte:Municipio>Santa Catarina Pinula</dte:Municipio>
+						<dte:Departamento>GUATEMALA</dte:Departamento>
+						<dte:Pais>GT</dte:Pais>
+					</dte:DireccionEmisor>
+				</dte:Emisor>
+				<dte:Receptor CorreoReceptor="" IDReceptor="129813DSFSDFSD" NombreReceptor="Nombre Crontribuyente" TipoEspecial="EXT">
+					<dte:DireccionReceptor>
+						<dte:Direccion>Direccion Comprador</dte:Direccion>
+						<dte:CodigoPostal>0</dte:CodigoPostal>
+						<dte:Municipio/>
+						<dte:Departamento/>
+						<dte:Pais>GT</dte:Pais>
+					</dte:DireccionReceptor>
+				</dte:Receptor>
+				<dte:Frases>
+					<dte:Frase CodigoEscenario="1" TipoFrase="2"/>
+					<dte:Frase CodigoEscenario="3" FechaResolucion="2020-07-20" NumeroResolucion="60321620201146214" TipoFrase="1"/>
+					<dte:Frase CodigoEscenario="1" TipoFrase="4"/>
+				</dte:Frases>
+				<dte:Items>
+					<dte:Item BienOServicio="B" NumeroLinea="1">
+						<dte:Cantidad>1.00</dte:Cantidad>
+						<dte:UnidadMedida>UNI</dte:UnidadMedida>
+						<dte:Descripcion>DESCRIPCION PRODUCTO O SERVICIO</dte:Descripcion>
+						<dte:PrecioUnitario>100.00</dte:PrecioUnitario>
+						<dte:Precio>100.00</dte:Precio>
+						<dte:Descuento>0.00</dte:Descuento>
+						<dte:Impuestos>
+							<dte:Impuesto>
+								<dte:NombreCorto>IVA</dte:NombreCorto>
+								<dte:CodigoUnidadGravable>2</dte:CodigoUnidadGravable>
+								<dte:MontoGravable>100.00</dte:MontoGravable>
+								<dte:MontoImpuesto>0.00</dte:MontoImpuesto>
+							</dte:Impuesto>
+						</dte:Impuestos>
+						<dte:Total>100.00</dte:Total>
+					</dte:Item>
+				</dte:Items>
+				<dte:Totales>
+					<dte:TotalImpuestos>
+						<dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="0.00"/>
+					</dte:TotalImpuestos>
+					<dte:GranTotal>100.00</dte:GranTotal>
+				</dte:Totales>
+				<dte:Complementos>
+					<dte:Complemento IDComplemento="1" NombreComplemento="EXPORTACION" URIComplemento="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0">
+						<cex:Exportacion xmlns:cex="http://www.sat.gob.gt/face2/ComplementoExportaciones/0.1.0" Version="1">
+							<cex:LugarExpedicion>GUATEMALA</cex:LugarExpedicion>
+							<cex:NombreConsignatarioODestinatario>Nombre Consignatario</cex:NombreConsignatarioODestinatario>
+							<cex:DireccionConsignatarioODestinatario>Direccion Consignatario</cex:DireccionConsignatarioODestinatario>
+							<cex:CodigoConsignatarioODestinatario>CODIGO</cex:CodigoConsignatarioODestinatario>
+							<cex:NombreComprador>Nombre Comprador</cex:NombreComprador>
+							<cex:DireccionComprador>Direccion Comprador</cex:DireccionComprador>
+							<cex:CodigoComprador>Codigo</cex:CodigoComprador>
+							<cex:PaisConsignatario>Pais Consignatario</cex:PaisConsignatario>
+							<cex:OtraReferencia>REFERENCIA</cex:OtraReferencia>
+							<cex:NombreExportador>NOMBRE</cex:NombreExportador>
+							<cex:NumeroAutorizacionProvisional>7FFD6B39-BBA7-4E7C-8796-DDDE6A1C4659</cex:NumeroAutorizacionProvisional>
+							<cex:SerieDocumentoOrigen>7FFD6B39</cex:SerieDocumentoOrigen>
+							<cex:NumeroDocumentoOrigen>3148303996</cex:NumeroDocumentoOrigen>
+							<cex:NumeroDeclaracionMercancias>Duca 54</cex:NumeroDeclaracionMercancias>
+						</cex:Exportacion>
+					</dte:Complemento>
+				</dte:Complementos>
+			</dte:DatosEmision>
+		</dte:DTE>
+	</dte:SAT>
+</dte:GTDocumento>

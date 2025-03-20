@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dte:GTDocumento xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0" Version="0.1">
+	<dte:SAT ClaseDocumento="dte">
+		<dte:DTE ID="DatosCertificados">
+			<dte:DatosEmision ID="DatosEmision">
+				<dte:DatosGenerales CodigoMoneda="GTQ" FechaHoraEmision="2025-03-20T15:08:36.000-06:00" Tipo="FPEQ"/>
+				<dte:Emisor AfiliacionIVA="PEQ" CodigoEstablecimiento="1" CorreoEmisor="" NITEmisor="76462196" NombreComercial="DELMAR LEONEL MARTINEZ OLIVEROS" NombreEmisor="DELMAR LEONEL, MARTINEZ OLIVEROS">
+					<dte:DireccionEmisor>
+						<dte:Direccion>3A AVENIDA 4-25 Zona 1 Jutiapa, JUTIAPA</dte:Direccion>
+						<dte:CodigoPostal>0</dte:CodigoPostal>
+						<dte:Municipio>Jutiapa</dte:Municipio>
+						<dte:Departamento>JUTIAPA</dte:Departamento>
+						<dte:Pais>GT</dte:Pais>
+					</dte:DireccionEmisor>
+				</dte:Emisor>
+				<dte:Receptor CorreoReceptor="" IDReceptor="CF" NombreReceptor="Consumidor Final">
+					<dte:DireccionReceptor>
+						<dte:Direccion>Direcion Comprador</dte:Direccion>
+						<dte:CodigoPostal>0</dte:CodigoPostal>
+						<dte:Municipio/>
+						<dte:Departamento/>
+						<dte:Pais>GT</dte:Pais>
+					</dte:DireccionReceptor>
+				</dte:Receptor>
+				<dte:Frases>
+					<dte:Frase CodigoEscenario="1" TipoFrase="3"/>
+				</dte:Frases>
+				<dte:Items>
+					<dte:Item BienOServicio="B" NumeroLinea="1">
+						<dte:Cantidad>1.00</dte:Cantidad>
+						<dte:UnidadMedida>UNI</dte:UnidadMedida>
+						<dte:Descripcion>DESCRIPCION</dte:Descripcion>
+						<dte:PrecioUnitario>100.00</dte:PrecioUnitario>
+						<dte:Precio>100.00</dte:Precio>
+						<dte:Descuento>0.00</dte:Descuento>
+						<dte:Total>100.00</dte:Total>
+					</dte:Item>
+				</dte:Items>
+				<dte:Totales>
+					<dte:GranTotal>100.00</dte:GranTotal>
+				</dte:Totales>
+			</dte:DatosEmision>
+		</dte:DTE>
+	</dte:SAT>
+</dte:GTDocumento>

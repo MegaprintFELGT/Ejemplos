@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dte:GTDocumento xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0" Version="0.1">
+	<dte:SAT ClaseDocumento="dte">
+		<dte:DTE ID="DatosCertificados">
+			<dte:DatosEmision ID="DatosEmision">
+				<dte:DatosGenerales CodigoMoneda="GTQ" FechaHoraEmision="2025-03-20T15:12:07.000-06:00" Tipo="FCAP"/>
+				<dte:Emisor AfiliacionIVA="PEQ" CodigoEstablecimiento="1" CorreoEmisor="" NITEmisor="50520342" NombreComercial="Megaprint" NombreEmisor="MEGAPRINT">
+					<dte:DireccionEmisor>
+						<dte:Direccion>DIRECCION</dte:Direccion>
+						<dte:CodigoPostal>0</dte:CodigoPostal>
+						<dte:Municipio>Jutiapa</dte:Municipio>
+						<dte:Departamento>JUTIAPA</dte:Departamento>
+						<dte:Pais>GT</dte:Pais>
+					</dte:DireccionEmisor>
+				</dte:Emisor>
+				<dte:Receptor CorreoReceptor="" IDReceptor="CF" NombreReceptor="Consumidor Final">
+					<dte:DireccionReceptor>
+						<dte:Direccion>Direcion Comprador</dte:Direccion>
+						<dte:CodigoPostal>0</dte:CodigoPostal>
+						<dte:Municipio/>
+						<dte:Departamento/>
+						<dte:Pais>GT</dte:Pais>
+					</dte:DireccionReceptor>
+				</dte:Receptor>
+				<dte:Frases>
+					<dte:Frase CodigoEscenario="1" TipoFrase="3"/>
+				</dte:Frases>
+				<dte:Items>
+					<dte:Item BienOServicio="B" NumeroLinea="1">
+						<dte:Cantidad>1.00</dte:Cantidad>
+						<dte:UnidadMedida>UNI</dte:UnidadMedida>
+						<dte:Descripcion>DESCRIPCION</dte:Descripcion>
+						<dte:PrecioUnitario>100.00</dte:PrecioUnitario>
+						<dte:Precio>100.00</dte:Precio>
+						<dte:Descuento>0.00</dte:Descuento>
+						<dte:Total>100.00</dte:Total>
+					</dte:Item>
+				</dte:Items>
+				<dte:Totales>
+					<dte:GranTotal>100.00</dte:GranTotal>
+				</dte:Totales>
+				<dte:Complementos>
+					<dte:Complemento IDComplemento="1" NombreComplemento="Abono" URIComplemento="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0">
+						<cfc:AbonosFacturaCambiaria xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0" Version="1">
+							<cfc:Abono>
+								<cfc:NumeroAbono>1</cfc:NumeroAbono>
+								<cfc:FechaVencimiento>2025-03-20</cfc:FechaVencimiento>
+								<cfc:MontoAbono>100.00</cfc:MontoAbono>
+							</cfc:Abono>
+						</cfc:AbonosFacturaCambiaria>
+					</dte:Complemento>
+				</dte:Complementos>
+			</dte:DatosEmision>
+		</dte:DTE>
+	</dte:SAT>
+</dte:GTDocumento>

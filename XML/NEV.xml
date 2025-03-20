@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dte:GTDocumento xmlns:dte="http://www.sat.gob.gt/dte/fel/0.2.0" Version="0.1">
+	<dte:SAT ClaseDocumento="dte">
+		<dte:DTE ID="DatosCertificados">
+			<dte:DatosEmision ID="DatosEmision">
+				<dte:DatosGenerales CodigoMoneda="GTQ" FechaHoraEmision="2025-03-20T14:56:35.000-06:00" Tipo="NEV"/>
+				<dte:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="1" CorreoEmisor="" NITEmisor="50510231" NombreComercial="MEGAPRINT" NombreEmisor="MEGAPRINT, SOCIEDAD ANONIMA">
+					<dte:DireccionEmisor>
+						<dte:Direccion>KILOMETRO 95 CARRETERA A EL SALVADOR TORRE TIGO OFICINA 2A Santa Catarina Pinula, GUATEMALA</dte:Direccion>
+						<dte:CodigoPostal>0</dte:CodigoPostal>
+						<dte:Municipio>Santa Catarina Pinula</dte:Municipio>
+						<dte:Departamento>GUATEMALA</dte:Departamento>
+						<dte:Pais>GT</dte:Pais>
+					</dte:DireccionEmisor>
+				</dte:Emisor>
+				<dte:Receptor CorreoReceptor="" IDReceptor="50510231" NombreReceptor="MEGAPRINT, SOCIEDAD ANONIMA">
+					<dte:DireccionReceptor>
+						<dte:Direccion>Direccion Comprador</dte:Direccion>
+						<dte:CodigoPostal>0</dte:CodigoPostal>
+						<dte:Municipio/>
+						<dte:Departamento/>
+						<dte:Pais>GT</dte:Pais>
+					</dte:DireccionReceptor>
+				</dte:Receptor>
+				<dte:Frases>
+					<dte:Frase CodigoEscenario="8" TipoFrase="9"/>
+				</dte:Frases>
+				<dte:Items>
+					<dte:Item BienOServicio="B" NumeroLinea="1">
+						<dte:Cantidad>1.00</dte:Cantidad>
+						<dte:UnidadMedida>UNI</dte:UnidadMedida>
+						<dte:Descripcion>DESCRIPCION PRODUCTO</dte:Descripcion>
+						<dte:PrecioUnitario>100.00</dte:PrecioUnitario>
+						<dte:Precio>100.00</dte:Precio>
+						<dte:Descuento>0.00</dte:Descuento>
+						<dte:Total>100.00</dte:Total>
+					</dte:Item>
+				</dte:Items>
+				<dte:Totales>
+					<dte:GranTotal>100.00</dte:GranTotal>
+				</dte:Totales>
+				<dte:Complementos>
+					<dte:Complemento IDComplemento="1" NombreComplemento="TrasladoMercancias" URIComplemento="http://www.sat.gob.gt/face2/TrasladoMercancias/0.1.0">
+						<ctrasmer:TrasladoMercancias xmlns:ctrasmer="http://www.sat.gob.gt/face2/TrasladoMercancias/0.1.0" DireccionDestino="Direccion Destino" DireccionProcedencia="Direccion Oriden" IDTransportista="50510231" Motivo="Motivo" NITCUIConsignatario="87987323" NombreConsignatario="Nombre Consignatario" NombreTransportista="Nombre Transaportista" Placa="845JGC" TipoDocumentoIdentificacion="NIT" Version="1"/>
+					</dte:Complemento>
+				</dte:Complementos>
+			</dte:DatosEmision>
+		</dte:DTE>
+	</dte:SAT>
+</dte:GTDocumento>
