@@ -1,0 +1,455 @@
+{
+	"info": {
+		"_postman_id": "3655df4f-a06e-4e74-b707-fbb8152f75fd",
+		"name": "Ambiente de Pruebas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21783029",
+		"_collection_link": "https://planetary-meteor-426613.postman.co/workspace/MegaPrint.~f4dbaeac-d90d-4588-89f8-bb35c7301bdf/collection/21783029-3655df4f-a06e-4e74-b707-fbb8152f75fd?action=share&source=collection_link&creator=21783029"
+	},
+	"item": [
+		{
+			"name": "Solitud de Token",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<SolicitaTokenRequest>\r\n\t<usuario></usuario>\r\n\t<apikey></apikey>\r\n</SolicitaTokenRequest>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev2.api.ifacere-fel.com/api/solicitarToken",
+					"protocol": "https",
+					"host": [
+						"dev2",
+						"api",
+						"ifacere-fel",
+						"com"
+					],
+					"path": [
+						"api",
+						"solicitarToken"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Solicitud de Firma",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<FirmaDocumentoRequest id=\"004A29CD-7CD7-463A-830C-8B153A09BDFC\">\r\n    <xml_dte>\r\n        <![CDATA[\r\n\r\n\r\n\r\n]]>\r\n</xml_dte>\r\n</FirmaDocumentoRequest>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev.api.soluciones-mega.com/api/solicitaFirma",
+					"protocol": "https",
+					"host": [
+						"dev",
+						"api",
+						"soluciones-mega",
+						"com"
+					],
+					"path": [
+						"api",
+						"solicitaFirma"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Registrar Documento",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version='1.0' encoding='UTF-8'?>\r\n<RegistraDocumentoXMLRequest id=\"166437D6-0BE3-467C-947C-EC8018DB0CC1\">\r\n    <xml_dte>\r\n\r\n</xml_dte>\r\n</RegistraDocumentoXMLRequest>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev2.api.ifacere-fel.com/api/registrarDocumentoXML",
+					"protocol": "https",
+					"host": [
+						"dev2",
+						"api",
+						"ifacere-fel",
+						"com"
+					],
+					"path": [
+						"api",
+						"registrarDocumentoXML"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retorna XML",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?> \r\n<RetornaXMLRequest> \r\n<uuid></uuid> \r\n</RetornaXMLRequest>\r\n",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev2.api.ifacere-fel.com/api/retornarXML",
+					"protocol": "https",
+					"host": [
+						"dev2",
+						"api",
+						"ifacere-fel",
+						"com"
+					],
+					"path": [
+						"api",
+						"retornarXML"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retorna PDF",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<RetornaPDFRequest>\r\n    <uuid></uuid>\r\n</RetornaPDFRequest>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev2.api.ifacere-fel.com/api/retornarPDF",
+					"protocol": "https",
+					"host": [
+						"dev2",
+						"api",
+						"ifacere-fel",
+						"com"
+					],
+					"path": [
+						"api",
+						"retornarPDF"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Anular Documento",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version='1.0' encoding='UTF-8'?>\r\n<AnulaDocumentoXMLRequest id=\"0FA97ABB-93DB-4407-9387-678C19E6F590\">\r\n    <xml_dte>\r\n        <![CDATA[\r\n        \r\n    \r\n        \r\n        ]]>\r\n\r\n</xml_dte>\r\n</AnulaDocumentoXMLRequest>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev2.api.ifacere-fel.com/api/anularDocumentoXML",
+					"protocol": "https",
+					"host": [
+						"dev2",
+						"api",
+						"ifacere-fel",
+						"com"
+					],
+					"path": [
+						"api",
+						"anularDocumentoXML"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retorna Datos Cliente",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version='1.0' encoding='UTF-8'?>\r\n<RetornaDatosClienteRequest>\r\n \t<nit></nit>\r\n</RetornaDatosClienteRequest>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev2.api.ifacere-fel.com/api/retornarDatosCliente",
+					"protocol": "https",
+					"host": [
+						"dev2",
+						"api",
+						"ifacere-fel",
+						"com"
+					],
+					"path": [
+						"api",
+						"retornarDatosCliente"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retorna Datos Cliente CUI",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\" ?>\r\n<RetornaDatosClienteRequestCUI>\r\n<CUI></CUI>\r\n</RetornaDatosClienteRequestCUI>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev2.api.ifacere-fel.com/api/retornarDatosClienteCui",
+					"protocol": "https",
+					"host": [
+						"dev2",
+						"api",
+						"ifacere-fel",
+						"com"
+					],
+					"path": [
+						"api",
+						"retornarDatosClienteCui"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Registrar Documento UUID",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<RegistraDocumentoRequest id=\"4375111F-A6A8-4DA9-A2F6-47C6FCD00011\">\r\n    <xml_dte>\r\n        \r\n\r\n    </xml_dte>\r\n</RegistraDocumentoRequest>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev2.api.ifacere-fel.com/api/registrarDocumentoUuid",
+					"protocol": "https",
+					"host": [
+						"dev2",
+						"api",
+						"ifacere-fel",
+						"com"
+					],
+					"path": [
+						"api",
+						"registrarDocumentoUuid"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "VerificarDocumento",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<VerificaDocumentoRequest id=\"00000000-AAAA-BBBB-CCCC-000000000001\"/>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev2.api.ifacere-fel.com/api/verificarDocumento",
+					"protocol": "https",
+					"host": [
+						"dev2",
+						"api",
+						"ifacere-fel",
+						"com"
+					],
+					"path": [
+						"api",
+						"verificarDocumento"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Valida Documento",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<ValidaDocumentoRequest>\r\n    <xml_dte >\r\n        \r\n\r\n        \r\n    </xml_dte>\r\n</ValidaDocumentoRequest>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dev2.api.ifacere-fel.com/api/validarDocumento",
+					"protocol": "https",
+					"host": [
+						"dev2",
+						"api",
+						"ifacere-fel",
+						"com"
+					],
+					"path": [
+						"api",
+						"validarDocumento"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
