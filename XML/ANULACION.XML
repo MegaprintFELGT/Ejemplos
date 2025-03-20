@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dte:GTAnulacionDocumento xmlns:dte="http://www.sat.gob.gt/dte/fel/0.1.0"
+                          Version="0.1">
+	<dte:SAT>
+		<dte:AnulacionDTE ID="DatosCertificados">
+			<dte:DatosGenerales FechaEmisionDocumentoAnular="2024-10-04"
+			                    FechaHoraAnulacion="2024-11-30T00:00:00"
+			                    ID="DatosAnulacion"
+			                    IDReceptor="70304459"
+			                    MotivoAnulacion="ANULACION"
+			                    NITEmisor="5365651"
+			                    NumeroDocumentoAAnular="6E9489FF-9297-4010-968C-6415B02D783A"/>
+		</dte:AnulacionDTE>
+	</dte:SAT>
+</dte:GTAnulacionDocumento>
